@@ -1,4 +1,4 @@
-import { Garagem } from './Componentes/Garagem'
+import  Garagem  from './Componentes/Garagem/Garagem'
 import { GlobalStyled } from './GlobalStyled'
 
 export default function App() {

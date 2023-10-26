@@ -1,7 +1,7 @@
-import { Carro } from '../Carro'
+import  Carro  from '../Carro/Carro'
 import { Botao, Estacionamento, GaragemContainer } from './styles'
 
-export function Garagem({ nome }) {
+export default function Garagem({ nome }) {
   return (
     <GaragemContainer>
       <h1>Garagem da {nome}</h1>
